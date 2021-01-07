@@ -1,0 +1,27 @@
+@import 'src/styles/_vars.scss';
+
+.ingredients{
+  padding: 0;
+  margin-bottom: 2rem;
+
+
+  .ingredient{
+    padding: 0.8rem 2rem;
+    border-bottom: 1px solid #ccc;
+    list-style: none;
+    text-align: left;
+
+    &:last-child{
+      border-bottom: 0;
+    }
+
+    .quantity{
+      //utilisation de la variable $mainColor
+      background-color: $mainColor;
+      color:#fff;
+      padding: .3rem 1rem;
+      border-radius: .3rem;
+      margin-right: .5rem;
+    }
+  }
+}
